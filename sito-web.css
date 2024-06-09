@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #28272b !important;
+}
+
+div.container{
+  max-width: 600px;
+}
+
+#menu{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#menu li a{
+  text-decoration: none;
+  color:#9b9b9d;
+}
+
+#menu li a:hover{
+  text-decoration: underline;
+  color: #4db3fa;
+}
+
+main h2.itunes{
+  display: block;
+  padding: 2em;
+  font-size: 3em;
+  text-align: center;
+
+  text-wrap: balance;
+  color: white;
+  border-radius: 15px;
+  margin: 10px 0;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/04/56/00/16/1000_F_456001627_vYt7ZFjxEQ1sshme67JAXorKRPo8gsfN.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main p{
+  padding: 20px;
+  font-size: .8em;
+}
+
+main h4{
+  text-align: center;
+}
+
+input, select, option{margin:10px 0px !important}
+
+.form-group{
+  display: flex;
+  gap: 20px;
+}
+
+.form-group input{
+  background-color: #1d1c20;
+  border: 1px solid #9b9b9d;
+  color: #9b9b9d;
+}
+
+input.btn.btn-primary{
+  margin: 10px 0px;
+  background-color: #4db3fa;
+  color: #28272b;
+  border: none;
+}
+
+div#isFormVisible{margin: 20px 0px}
+
+.news-card{
+  border: 1px solid black;
+  display: inline-block;
+  width: 200px;
+  min-height: 200px;
+  margin: 5px;
+  padding:5px;
+}
+
+.sx{float:left}
+.dx{float:right}
+
+table#news-table[input]{margin: 10px 0px;}
+
+button{margin: 10px 0px;}
+
+/* CARTE MUSCIALI */
+
+.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  border: none;
+  display: inline-block;
+  width: 200px;
+  min-height: 300px;
+  margin: 25px;
+  background-color: #1d1c20 !important;
+}
+
+.music{
+  box-shadow: #0000003a 0px 0px 10px;
+  border-radius: 15px !important;
+}
+
+.music img{
+  border-radius: 1.375rem;
+  width: 200px;
+  height: auto;
+  padding: 15px;
+}
+
+.music h5{
+  margin: 0px 15px 5px 15px;
+  font-size: .9em;
+}
+
+.music h7{
+  margin: 0px 15px 0px 15px;
+  color: #9b9b9d;
+  font-size: .7em;
+}
+
+audio{
+  flex: auto;
+  width: 100%;
+  transform: scale(80%);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+audio::-moz-media-controls-current-time-display {
+  display: none;
+}
+audio::-moz-media-controls-time-remaining-display {
+  display: none;
+}
+
+audio::-ms-media-controls-time-remaining-display {
+  display: none;
+}
+
+/* ///////////////////// */
+
